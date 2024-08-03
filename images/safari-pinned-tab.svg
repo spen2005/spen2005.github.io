@@ -1,34 +1,286 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="500.000000pt" height="500.000000pt" viewBox="0 0 500.000000 500.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 2500 l0 -2500 2500 0 2500 0 0 2500 0 2500 -2500 0 -2500 0 0
--2500z m1294 1465 c51 -115 97 -219 102 -230 6 -13 10 63 12 213 l2 232 213 0
-212 0 194 -443 c248 -565 472 -1071 475 -1075 2 -1 33 64 69 145 36 82 97 218
-136 303 38 85 162 360 274 610 l205 455 201 3 201 2 2 -257 3 -258 64 145 c35
-80 83 186 106 236 24 50 46 101 50 113 6 21 9 21 208 19 l202 -3 3 -1382 2
--1383 -160 0 -160 0 0 1059 c0 675 4 1106 11 1186 10 120 7 171 -6 109 -20
--94 -78 -243 -194 -504 l-131 -294 0 -778 0 -778 -160 0 -160 0 -2 414 -3 413
--184 -414 -183 -414 -81 3 -81 3 -115 258 c-63 141 -117 257 -120 257 -6 0
--26 -43 -126 -270 -26 -58 -62 -138 -80 -177 l-34 -73 -78 0 -79 0 -183 412
-c-101 227 -188 417 -192 422 -5 6 -9 -178 -9 -412 l0 -422 -155 0 -155 0 0
-779 0 779 -41 89 c-185 399 -279 640 -279 712 0 11 -5 23 -11 27 -9 5 -10 -1
--4 -22 4 -16 10 -554 12 -1196 l4 -1168 -160 0 -161 0 0 1378 c0 758 3 1382 7
-1386 4 3 101 5 215 4 l209 -3 93 -210z m2936 -2980 l0 -155 -1730 0 -1730 0 0
-155 0 155 1730 0 1730 0 0 -155z"/>
-<path d="M1718 3397 l4 -402 90 -205 c49 -113 137 -312 195 -444 58 -131 120
--279 138 -330 18 -50 37 -90 41 -89 5 1 25 47 46 103 21 56 54 139 73 185 l36
-83 -272 609 c-291 652 -298 668 -332 803 l-22 90 3 -403z"/>
-<path d="M3280 3770 c0 -54 -90 -277 -343 -846 l-276 -622 53 -123 c29 -68 63
--154 76 -192 12 -37 26 -67 31 -67 4 0 13 17 20 38 25 79 111 286 204 492 54
-118 126 279 161 358 l64 142 0 243 c0 217 11 458 25 560 3 22 1 37 -5 37 -5 0
--10 -9 -10 -20z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1200 1200" width="1280" height="1280" xmlns="http://www.w3.org/2000/svg">
+<path transform="translate(0)" d="m0 0h1200v1200h-1200z" fill="#FCFCFC"/>
+<path transform="translate(587,829)" d="m0 0 5 1 15 1 1 1 64 1 3 11v7l-3 11-6 7-1 2 8-1 1-2 3-2 8 3v2l12 2 3-1 2-7 9-3 6-7h5l4 4 2 1 11 1 1 2-1 3-7-1-13 7-1 1h34l2 1h19l2-3h6l1 2h6l5-2 2 3h27l2-1 1-4 3-1-2 7 42-1 12-2v-4h-15l-3 2h-5l-1-1v-12h6l2 1h7v-7l4 2 2-9 5 2 8 4v2l-10-2 1 13 10-3 9-3h5l-1-2h-6l-6-7 1-4 3-2h3v2h-2v4l3 1v2l4-2h5l5 1 7-10 7-3 7 1 13 4 9 2 2 3-3 1v5l1 3 6 1 5 2-1-2-3-1 2-8-2-2 1-4 6 5 1-3 4-1 6 4 10 2h10l4 5 7 1 9-7h5l3 2h11l4-1 4 1 10 1h8l6 2-2-2 1-5 3 1 1 5 10-1 11 2h11l3 1 11-4 8 1 4-1 7 1 3-2h3v2h19l4 2 4-1 2-3 4 2v3l5-1h8l7 2v345h-1132l-4-8-2-6 1-9 1-4-3-7-7-13-7-7-7-8-5-4v-2l-3-1-1-4 18-8 10-3 5 2 4-1 3-2 4 1 4 2 5-4 4-2 9-1-1 4h5v-2l6-3 2-5h4v2l6 1 6 2h20l11-2-2-7 5-6h2v-2l7-3 5-5 1-4-4-2 1-3 5-1v-9l5-3 4-2v-3l-5 1v-2l8-2 7 1 6 7 7 5 7-1h5l1-2-8 1-6-1v-2l-4-2-3-3 1-3h2l1-7-2-2h5l1 1 15-1 16-4 5-4h6l4-4 3-1-1-5 3-1v2h5l1 4-3 1h6l-3-8-4-1-15 2-4 1v-2l23-9 20-8h2l1 2 3 1 2-5 11-3h6l-5-6-3-6-1-1v-41l-2-7-1-24-1-4v-19h27l19-1 10 2h9l6-1 7 1 8 1v-2l8-1 9 3 9-1 1-1h34l3-2 4 1 4 2 5-3 3 3 8-1 4 1 6-2 11 1 1 1h8l5-2h3v2h8l6-2 2 2 4-1-2-5-3-1v-2l4 2 4 4h3v2h-2v2l7-1 2-5v-11l-21 1v-2l-28 1-7 1h-10l-2-1h-15-3l-10-2-8 1-20-1h-23l-26-1h-26l-42-1-4-1v-8l2-1 4 1 75 2h9l7-2 4 2h12l5-1 5 1 3 1h72l31 1 1-6 4-1v6l3-1 2 1h9l3-24 1-10 1-1h8l5 5 4 5 1 4 3 1-1-10h5v2h2l-1-7 3-3 2 1 2 9v12l-6 9-7 10-5 6 3-1 1-2h2l2-4 7-7 5-7 1-3v-26z" fill="#010101"/>
+<path transform="translate(1082,1026)" d="m0 0h16l3 1 24 1 5 1h25l3 1 29 1 13 2v167h-1123l2-4 16-9 13-5 17-8 11-4 6-4 15-6 39-16 22-11 8-2 7-4 13-5 26-13 19-8 12-6 10-6 8-2 65-28 25-10 12-4 2-1h6l1 1 1 7 4 3 5 2 3 9 5 9 2 6 2-1-1-12 1-8 3 1v33l1 10-3 4-4-1-8-10-10-16-7-14-3-1v6l8 16 7 11 4 9 6 13 1 9 5-1 5 15v9l3 11h2l5 6 7 2-3-9-6-12-7-23-2-9v-8l4-1 4 4 4 8 7 9 8 6 3 4-1 5 3 1 1 15 1 7 6 12 7 6 15 6 10 1 6-3 2-3-1-8-6-11-10-12 1-4 5-8 2-10 4 2 5 4h8l3-3h2v-8l-9-20 2-3 7-3 11-7 2-5 1-8 1-1-1-7-1-5 5-6 6 1 10 3v4l-5 5v5l15 3h25l11-1 12-4 26-1 19-7 7-1 2 1h6l15-6 16-8 12-7 4-5 2-4h3l2 5 2 8 9-1 11 1 1-1h8l1 1 31 1 7 1h44l1 1 61 1 21 1 40 1 5 3 1 7 11-7 12-8 12-9 10-6 9-7 9-6 16-2z" fill="#FCFCFC"/>
+<path transform="translate(172)" d="m0 0h75l12 17 11 10 8 7 8 11 5 5 5 4 18 11 17 10 19 11 22 13 28 17 19 12 20 12 19 12 22 14 24 15 15 10 24 15 11 7 20 13 8 5 24 10 8 5 4 3 18 3 24 9 5 2 3-4 5 1 7 6v2l5 2 12 6 2 2 1 6-2 4h-10l3 3 4 3v3h-10l-7-1h-2l3 5 7 9 8 7 10 6 1-2v2l3 1v2l-20 1-1 3-5-2-7-10v-2h-8l-2-1 1-3 8-4 1-5-7 3-6 3h-5l-5-1-2 4-3 7-9 2-7 5-4 4h-2v-3l6-4 6-5 10-6 7-9 1-8 8-1-2-4-4 1-4 5-3 3-4 6-6 4-5 1-8-2v-4l-4 2 1-4h5v2l4 2v2h2l1-6-1-6 1-3 8-2-1-4-6-1-2 4-7 4-1-3 2-7-7 2v5l-3 1v8l-3 7-8 3-1-4 2-2-1-4-5-8-2-4-2-11-2-1h2l1-4 4-2h10v4l1 4 12-2 9 1 6 2-5-5-16-8-10-3-6 1-9 4h-2l-1 4-2-2-6 4-7 6h-2l-2 5-8 9h-2l1-6 6-6h2l1-3h2l2-5 4-5 10-5 5-1-1-3-8 1-8 5-4 2 2-5 1-4h-5l-5 6-1 4h-6l-3 4-1 3 8 2 3-7 5 4v2l-8 6-5 3-12-2-1-2 5-5h2l3-11 5-5-1-4-5 2v-6l3-1h2l-1-5-4 1-3 5-5 4-6-3h-6l-1-4-6-2-5 8-6 1-5-3-2-3 3-4 1-5-6 2-3 4-8 4h-2l-1-5-3 1-2 4-3 1 1-5 6-8 1-2-8 4h-4l2-5 3-3v-3l-12-1-1-2 6-9 1-2-5 5-9 11-7 10-6 14h-3l-16-16-11-9-7-8-8-7-9-9-4-5-8-7-10-9-12-11-21-14-15-13-10-9-25-25-16-15-26-26-1-4 4-5 3-5 1-3-11 2-6 3-1 2-5-1-15-11-5-4-6-3-14-2-8-3-10-8-5-8-3-10z" fill="#010101"/>
+<path transform="translate(1190,553)" d="m0 0 4 1 6 4v39h-2l-1-9-6-2-12 2-26 1-5 1 1 4 5 1h3l1-2 1 4-6 2-5-1v-2h-2l-2-5-10-1-10 3-20 1-2 1h-11l-13 1-3 3 9-1h6l3 3-1 2-13 4h-2v5l4 2 2 2v3l-4-2-3-4-5-3h-4v2l-14 1-2 6h-2l-2-5-6 2-2 2-17 1h-9l-6 2-3-2h-11l-4-1-1 5h-3l-1-5-6 2h-9l-1 3-5-1-6-2-2 5-3-1-2-7-28 3v-1l-6-1 1 2 3 1v2h2l1 5 7-1 1 3-12 3h-10l-1 1h-15l3-2v-2l-3-1v-2l-4 1 1 4 1 3-9 3-10 2-4-3h-5l-4 2-12 1-4 2-11 2-1-1h-10l-7 4-6-1-4-1-5 1h-6l-5 1-5-1h-10l-5 5-4-1h-4l-5 3-9 1-8 5-16 2-2 1-3 7-1 5h-4v-3h2l1-8 4-2 1-3h2l-1-5 2-4-6 2-1-9-1-7h-2v-2l-4-2-1-1h-7l-5 2-3-2-1-13h7l3-2h3v3l-4 2-1 4h8l1 1 8-1 19-3h5l4 1 6-2h8l9-3 11-1 10-2 25-4 5-2 4 2 7-2h8l25-5 12-2h15l14-2h6l1-2 4 1v-3l-9-1-5-2-1-5h22v-2l29-1 6-2h8l6 1 6-2 22-1 4-3 6 1 3-2h11l4-2 4 2 6-3 8-2 2-2 9 1 1-1h11l3 1 10-5 6 1h13l7 1 9-1 2-2 9 1 3-1 12-1 5-1h29v-5h11z" fill="#020202"/>
+<path transform="translate(472,657)" d="m0 0h2l2 6 2 11 3 16 2 3v3l-3-1v-2h-7l-3 3-9 2-6 4h-10l-1 1-25 1-6 2-8 5-4-3-9-1-3-2h-5l-1 2-8 3-8 5-3 3h-10v-3l2-1 1-5h-3l-1 3-8 2-2 3-9-1-3 4-4 1-7-5h-3l-2 4-5 5-3 1-2-1h-6l-4 4h-10l-8-3-4 1-16 1-2 4-7 1-3-1-2-5h-3l-1 4h-6l-2 3h-3l-3-4-5 1-5 3h-8l-6-5-2 1 1 6-10 6-3 2h-5l-1-1v-5l-4 1-2 2-7 2-10 4 1-11h-2l-2 5-5 7h-2l1-9h-2l-2 10-12 3-8 1-1-5h-8l-1-2 5-5 4-2v-2h-7l-3 1-1 7-1 5-6 2-1-1-10 1-4 1 1 6h-4l1-5-7 2 1 9h-7l-9 6h-8l-1-10-9 1 1 4 2 2v4l-8 2-5 1-2-8-12 2-2-4-4-1-6 1 1 2 4 2 3 5 11 10v3l-4-1-1-3h-2l-1-2h-3l-2 7h10l-2 7-6-1-3-4v-2l-4 1 1 5 2 3v4l-17 2v-66l15 5 1-2 1 1h8v-4l10 2h9l6 3 5-3 7-2 4-3h6l7-3 10-2 13-2 8-3h7v3l4-1 1-5h6l1 4 2-2-2-4 5 1 4 2 7-2 12-1 4-5 6-4 1-3-8 1v2h-2v-2h-27l-4 3h-2v-2h2l2-6 1-1 31-1 8-3 8 3 9-1 8 3h13l5-3 9-2 5 1h7l5-2-1-1-8-1v-2l5-2 5 1 6-1-1 4-2 2 4 1 3-5 9-3h5l-4 3-5 2-1 11 6 3v-4l4-2v-2l-6 1-2-1v-5l10-5 4-3 17-5h10l5 1 4-3 5 1v2h6l2-3 8 1 2-2h14l4 2 2-2 4 1v2l8-4h5l3-3 1-3h6l-1 4-7 3-1 3 3-1 2 1 1-3h3l1 2 8 1 1-4 2-4 11-1 5 1 14-4 5-1-2 6 2-1 3-7h3l1 6 2 1 1-4h5l1-4 3 2 12-6 5-2h9z" fill="#020202"/>
+<path transform="translate(201,740)" d="m0 0h20l4 2v2h2l2 3 2 6 1 4-19 8-3 1-4 4-16 5-11 3-2 1-9 1 1 12-1 18-6 4-15 3-6 12-2 7-4 3-28 6-4 2h-5l4-10v-8l1-7h-2l-2 7h-5l-3 8-8 14-4 2-10 1-7 3-10 2-6 3h-4l1-10-4 2h-3l-4 2-5 8-4 3-15 3-8-3v-61l18-5 18-2v-2h2v-5h2v4l10-1 31-6 69-14 11-2 17-5 19-5 5-2 10-2 13-5 2-3-2-1-2-6-5 2-5 5-6-5-5-2 1 6-5 1v-3z" fill="#010101"/>
+<path transform="translate(1190,725)" d="m0 0h10v80l-3 1-1-5h-3l-4 4-5-2-3-2 4-3v-2l-4-1-1 5-5 1v-4l-4 1-2 4 5 1 4 4 5 2 1 2-7 1-2-2-5-1h-8l-5 3v2h7l14 4-4 2-11 1h-4l-2 4h-5l-2 3h-5l-2-6-4 1-3 4-12-1h-12l-1-3-8 3-6-1 5-6 8-7h6l2 1-1 6 12-3 3-2h13l2-1-2-6 1-5h2l2 7 8-2 6-2h-2l1-5 5-4 6-5 3-5-1-3-9-2h-9l-9 1 2 5-2 1-6 1-3 4v5l-5 5h-7l-2-1-11 3-1-3-6 1h-13v-2l12-1 2-3h2v2h4v-3l-3-2-15-2h-13l-5-2-10 1v-4l2-3h-6l2-4 2-2-1-2-5 4h-2l-1 3-3 1-2-1v-4h-2l1-6h-6l-1 4h2v2h-2v3l-7 1v-3l3-3-7 1 2-6-9-1-1-3h-3l1-2 12-2 2-5 17-9h2l-1-6 1-2 5 2 1 4 16-4 35-8 1-4 5 1 1 1 14-1 16-3 4-3 4 2v2l8-3 19-2z" fill="#030303"/>
+<path transform="translate(1057,1100)" d="m0 0h15l1 1v12l-2 3h-2l-2 4-6 7-7 9-4 3-5 1v3l3 2v2l-8-1 1 8-7 2-5 2-1 4 8 5 12 2 1 2-10 1-10-3-7-1 1 7-6 4-4 1-2-2-4 1-4 2v6l-5 1-1-1v-8l-9 1-5 3h-2l-1-4-5-2v9h-7l-6-5v-2l-6-2h-7l-3 1-2-1h-6l-2 10h-3l-3-3-5 1-4 2-5-4v-2l5-3 1-3-1-1-10-2-3-2 2 7 4 6h-5l-8-4-9-1-2-1h-6l-5 2-6-1-1-6 1-3-1-4 5-3 6-3 7-3 18-11 8-7 8-4 3-3 7-3 3 1-9 8-2 2-2-1-8 6-1 3 10-4 3-3 5 1 8-3 4 3v2l3-3 2-3 25-1 3-3h7l10-3-4-6v-2l9-4 7-4 5-3 5 1 3 2 4-1 4-4 1-4h3l2 6h5l1-7 7-2h7z" fill="#010101"/>
+<path transform="translate(137,902)" d="m0 0 3 3 1 4-1 13-5 5h-5l1-4 4-4 1-7-5-1-2 14 1 5 8-1 5 4 5 3-2 4-1 1-1 9-6 5-7 1 1 4 2 1v2l4 2 5 6-3 2v1l3-1v10l-3 2-6-1-2 10-4-3-5 1-8 1 1 10 2 3 1 13-5-1-1-1h-6l-10 3-1-2 2-5 1-8 6-2-4-2-1-1-1-7-1-1-8 1-3 3-24 2-10 5h-2l-1 3-2-1 10-12 14-4-1-1h-11l2-9 1-4-4-1-2-4 1-2h-5v-2l6-3 6-5 7-3 3-3-8 2 4-5 8-3-4-4-13 2-6 2 2-5 5-5 7-5h9l5 3 5 7 2 6 1 8 3 9 1 12h-3v2l6 1-1-11-2-10 1-7 5-5 8-7 4-8-3 1-1 2-5 1-4 1-1-7v-9l-1-6 10-4 5-1 1-2 1 2 1 12 3 6h3l5-15h-5l1-4 5-4 8 2z" fill="#030303"/>
+<path transform="translate(173,1013)" d="m0 0 4 2v8l4 13 5 6-3 2-34 13-33 13-24 9-17 6-32 12-26 9-9 3 1 4 4 4-6-2-7-4v-15l9-2 6-3 10-4 4-2 32-8-4-2-10-1-10-8-2-6 4-10 2-7 7-3v-6h3l3 6 2 1h7l9-3h3l1 2v11l1 6 17 3 13-6-1-6-1-2v-10l2-1v2l4-2 4-5 4-1-2 5-6 4 1 6 1 2 5 1 1-3h10l-1-6-2-1 10-16 1 3-5 12-3 1v2h2l3 3 8-4 1-2-1-6 2 1 1 4 7-2 7-4 11-3 2-10z" fill="#010101"/>
+<path transform="translate(656,881)" d="m0 0h21l43 1h56l95 1 17 1 78 1 12 1h41l4-1 1 1h52l3-1 2 1-1 4-7 2-53 1h-12l-2 4-2 2h-3l-2-7-42 1h-18v2l-3 1-5-3h-8v4h-2l-2-3-4-1-1 3-3-1v-2h-17l-1 4h-2l-2-5-1 4-1 2h-2l-2-6h-27l-2-1-1 5-5 1-4 2h-5v-2l6-4h2l-1-2-9 1h-10l-3 9-6 1-3-2-5 1h-5l-2-2 1-5-3-2-1 4-2 3h-6l-7 2h-25l-2-2v-3h-3l-2 4h-5l-3-2-1 1h-6l-3-2h-10l-2 2h-14l-3-2v2h-5l-2-5-6-1 5 4v3l-21-1h-16l-1-3 4-5-4 2-4 1-1 4-1 1h-5l1-4h2l2-7z" fill="#F0F0F0"/>
+<path transform="translate(157,832)" d="m0 0 5 2 5 11 2 8 1 10 2 8 1 15-1 3-4-2-6 1-1 3-12 4-6 4-6 1-1 2-5-1v-2l-4 1v2h-5v-2l-4 1-7-4-4 1 1-6-14-7-13-2-1-6 7-6 5-3 2-2 1-5h4l5-5 5-1 5-5 12-6 8-3 8-1 5-5 3-2z" fill="#010101"/>
+<path transform="translate(262,773)" d="m0 0h9l6 3 6 10 4 18 1 27 2 5-2 3-1 16-4 13-7 6-7 3h-8l-5-3-5-9-2-7-4-26-1-14-1-3v-13l3-12 5-10 8-6z" fill="#010101"/>
+<path transform="translate(256,938)" d="m0 0h10l1 1v17l-3 6v2h9l2 1h7v-4l-6-4-1-8 4-7 4-2 6 1 2 3v9l-1 3v9l-4 14-6 3-10 1-5 10 1 1 17-6h4v3l-20 8-39 15h-5v-2l11-6-2-5-1-4v-6l-7 5-8 2-1-2v-6l1-2 3-20 4-4 8-1v-6l8-7 3-5 3-1 6 3 2-7z" fill="#030303"/>
+<path transform="translate(223,784)" d="m0 0h10l-2 15 1 13 3 13 2 14 1 3 5 2v13l-4 3v23l-4 3-3 1h-7l-2-8v-14l-20 5h-6l-2-8 1-2v-10l2-5 2-10 1-16 4-9 10-16 4-9z" fill="#010101"/>
+<path transform="translate(423,386)" d="m0 0h28l8 4 10 9 7 8 5 4 9 5 8 2 10 4-2 10-3 7-3 5-4-1-3-5-8-5-9-4-17-3-5-1v5l-4 1-7-8-3-7-9-1-7-2-2 6-3 4-5-2-2-2-1-8-6 1-1-1 1-9 4-8 11-7z" fill="#010101"/>
+<path transform="translate(416,137)" d="m0 0 7 4 13 9 16 10 17 11 30 20 29 19 24 16 10 7 6 5 3 3 9 6 12 6 5 2v2l-6-1-17-9-21-9-12-3-9-5h-6l-4-5-5-2-4-5-13-9-14-11-16-13-11-7-16-9-15-15-7-8-5-6z" fill="#F4F4F4"/>
+<path transform="translate(888,884)" d="m0 0 78 1 12 1h41l4-1 1 1h52l3-1 2 1-1 4-7 2-53 1h-12l-2 4-2 2h-3l-2-7-42 1h-18v2l-3 1-5-3h-8v4h-2l-2-3-4-1-1 3-3-1v-2h-17l-1 4h-2l-2-5h-2z" fill="#E9E9E9"/>
+<path transform="translate(0,1139)" d="m0 0h9l10 2 1 1v10l-2 2 1 5 1 1-1 18 1 2 2 13 1 2-6 5h-17z" fill="#010101"/>
+<path transform="translate(579,573)" d="m0 0 9 1 10 4 6 3 22 5 11 2 9 3-1 2-16-1v3l9 2h6l1-1h13l3 3-5 1-8-1v2l5 1 13 5 4 3-2 4-4-2-7-3 1 5-10-1-6-4 5 4 3 2 13 1v3l-6 1-11-1-6-4-3-5-7-3h-8l-4-7-12-9-14-8-5-5-6 1-3-3z" fill="#010101"/>
+<path transform="translate(218)" d="m0 0h2l5 5 4 5v3l-8 2 11 10 22 14 26 14 10 8v1l-9-1-16-9-7-3-2 3h-6l-2-6-1-4-11-6-5-3-6 1-3 1-8-5-1-5 2-3-1-6-4-6 2-4h4z" fill="#EBEBEB"/>
+<path transform="translate(1146,802)" d="m0 0h2l2 7 8-2 3-1 1 3-5 3v2h7l14 4-4 2-11 1h-4l-2 4h-5l-2 3h-5l-2-6-4 1-3 4-12-1h-12l-1-3-8 3-6-1 5-6 8-7h6l2 1-1 6 12-3 3-2h13l2-1-2-6z" fill="#020202"/>
+<path transform="translate(1181,795)" d="m0 0 5 1-2 4-2 1 5 3 4-1 2-3 4 1v5l3-1v22l-4-1-6-5-5 1v-2l-15-3-6-2h-7v-4l5-3h9l5 2 1 1h5v-2l-7-3-1-3h-5v-4l3-3 4 1v3h3z" fill="#ECECEC"/>
+<path transform="translate(262,794)" d="m0 0 5 1 3 8 3 17v29l-2 6h-5l-3-12-1-15-1-3v-30z" fill="#F5F5F5"/>
+<path transform="translate(573,600)" d="m0 0h17l16 4 10 4 1 3-1 2h-6l-3-2h-5l-1 4-7-1-9-3-17-3-4-2v-2l9-2z" fill="#010101"/>
+<path transform="translate(821,849)" d="m0 0h2v4l-4 3v2l6 2v4l-21 7-6 1-1-5 6-5 1-4-13 1-4 1v8l-5-5-2-4 4-1 11-2 10-2 5-2z" fill="#010101"/>
+<path transform="translate(627,283)" d="m0 0 3 1-2 8h2l6-4 1-2 4-1 3 2v4l-8 2 1 11-2 4h-2l-4-4v-2h-5v5 4l-10 7-2-1 5-5 1-4-4-1h2l3-15 2-1v-5l2-2z" fill="#EAEAEA"/>
+<path transform="translate(111,896)" d="m0 0 8 4h3v2h5v-2l4-1v2l3-1v2h2l1-3 1 3-1 4-8-1-5 4-1 3h5l-1 6-4 10-4-1-3-6-1-12-1-3-3-1v3l-2-1v-3l-3-1 1-5z" fill="#EFEFEF"/>
+<path transform="translate(69 1e3)" d="m0 0h7l-1 5-2 3-1 18-11 1h-5l3-6 7-6 2-5-9 6-3-1v-5h-3l1-5 8-4z" fill="#010101"/>
+<path transform="translate(574,258)" d="m0 0h5l1 2-3 7 9-6 5-2h5l1 4-12 5-5 5-4 6-8 6-1-4 5-4h2l-4-5-3 6-4 1-5-3 1-5 3-3 6 1 1-5z" fill="#E7E7E7"/>
+<path transform="translate(927,840)" d="m0 0 4 1 1 7-1 2h-2v2h2l1 6 10 1-1 4-10 2-8 3h-7l-1-4 3-1 2-5-4-1h-3l2-5 5-1 2-5z" fill="#eee"/>
+<path transform="translate(769,367)" d="m0 0 5 2v4h-2v2h13l3 2-1 3-3-1v-2h-2l-1 3-5-1 2 5 4 1v2l-10-1v3l-11-2-2 2v3l4 2v3h-2v3l4 2 7 2 12 4v2l-6-1-9-3-3 3h-2v-3l-3-1-2-5-6-2 2-4 1-1v-5l-4-3v-3h7l4-1 6 3h5l-5-11-1-5z" fill="#151515"/>
+<path transform="translate(792,889)" d="m0 0h8l2 1 8-1h32l4 2-9 1h-10l-3 9-6 1-3-2-5 1h-5l-2-2 1-5-3-2-1 3-1-3-11-1z" fill="#0F0F0F"/>
+<path transform="translate(554,1049)" d="m0 0h9l-1 9-4 9-4 4-11 4h-3l2-6 9-17z" fill="#F0F0F0"/>
+<path transform="translate(201,740)" d="m0 0h20l4 2v2h2l2 3 2 6 1 4-19 8-3 1-3-2 1-3 11-5 7-3 1-2-2-1-2-6-5 2-5 5-6-5-5-2 1 6-5 1v-3z" fill="#020202"/>
+<path transform="translate(128,674)" d="m0 0 10 1 9 2 3 2 1 4 2 1 5-5 7 1 4-3 3 1-6 9-3 3-3-1 2-3h2l-1-3-5 3-3 2-10 2 2-3v-3l-6-2-2-1-12-1-1 4-2-4 1-4z" fill="#060606"/>
+<path transform="translate(777,493)" d="m0 0h4l1 2 6 2 1 1v12l-12 3-2-4-2-1 3-10z" fill="#A4A4A4"/>
+<path transform="translate(892,848)" d="m0 0 5 4 1 2h6l1 3-11 3-11 4-3-1-1-11 1-2 10 2v-2l-3-1z" fill="#E3E3E3"/>
+<path transform="translate(913,621)" d="m0 0 9 2 1 5 7-1 1 3-12 3h-10l-1 1h-15l3-2v-2l-3-2 3-2h7v3h7 2l3-1-1-4z" fill="#B7B7B7"/>
+<path transform="translate(1128,768)" d="m0 0h11l8 5v2l-4-1-1-1-1 2-18 1-1 3h-8l-1-2 5-6z" fill="#E6E6E6"/>
+<path transform="translate(172,951)" d="m0 0 3 2v7l-5 5-3 4v3l-6-2-4 1-1 2-5-1-3-2v-4l5-1 2 1 7-3 5-4h2l2-7z" fill="#010101"/>
+<path transform="translate(577,1028)" d="m0 0 4 2 7 10 4 1 10-3 12-7 4-3h3l-2 4-11 7-10 4-4 1h-10l-5-5-3-7z" fill="#D9D9D9"/>
+<path transform="translate(513,402)" d="m0 0h1l2 8 2 16 2 5v7l-5 1 3 6 1 3-6-1-6-7-1-7 5 1 5 3v-8l-4-17-1-5z" fill="#010101"/>
+<path transform="translate(53,270)" d="m0 0 8 1 6 3-1 14-5-1-2-2-6-2-1-5z" fill="#010101"/>
+<path transform="translate(286,656)" d="m0 0h10l1 4-12 2-7 1-1-2-1 9h-3l-1-5-4 2-5-1-2-1v-4l9-2 3-2 10 2v-2z" fill="#010101"/>
+<path transform="translate(946,843)" d="m0 0 6 2 1 2v7l-3 1-5-2-1 3h-7l-6-4 3-4 9-1 1-3z" fill="#ECECEC"/>
+<path transform="translate(978,1165)" d="m0 0h8l2 1-1 3 6-2h5l-1 6-6 4-9 2-2-4v-5z" fill="#EAEAEA"/>
+<path transform="translate(738,889)" d="m0 0h31v3h2v-3h12l-1 4-5 1-13 1-3-1v-2l-10 1-12-2z" fill="#848484"/>
+<path transform="translate(129,679)" d="m0 0 10 1 3 2 5 1v1h-6l-2 7h-5l-1-5-2 2-2 4-7-3 1-4 3-2 1-3z" fill="#DBDBDB"/>
+<path transform="translate(193,1096)" d="m0 0h15l1 5-9 1h-23v-4l4-1h10z" fill="#E8E8E8"/>
+<path transform="translate(723,344)" d="m0 0 1 2-7 7-1 7-5 3h-6v-10l15-8z" fill="#010101"/>
+<path transform="translate(10,264)" d="m0 0 2 1-2 15h-10v-15z" fill="#010101"/>
+<path transform="translate(751,349)" d="m0 0h9l1 1 9 2 6 8v2h-13l-7 2-3-1 1-4h5l5 1 1-7-13-2z" fill="#060606"/>
+<path transform="translate(685,340)" d="m0 0h8l3 4v2l-18 3-9-2-1-2 8-3z" fill="#010101"/>
+<path transform="translate(1029,596)" d="m0 0h7l2 3h-2v2l-8 1-3 1-3-3-4 1-2-1-1 3-9 2-6 1-4-2 3-2 6-1 9-2 2-2z" fill="#DBDBDB"/>
+<path transform="translate(732,345)" d="m0 0h2l7 8v3h-8l-4 2h-5l-1-5 4-5z" fill="#010101"/>
+<path transform="translate(676,391)" d="m0 0h11l-1 2-11 4-16 1-9 1 1-3 8-3z" fill="#010101"/>
+<path transform="translate(722,324)" d="m0 0 6 1 9 4 11 5v6l6-1 1 4h-7l-4-1v-2h-3l-4-6-5-5-9-3z" fill="#090909"/>
+<path transform="translate(116,981)" d="m0 0h3l-1 4-15 3-22 1 1-3 13-2z" fill="#E2E2E2"/>
+<path transform="translate(232,665)" d="m0 0h5l2 2 2 1-2 4-8 4-8 2h-8l-3-3 1-2 18-2 4-1 1-2h-3z" fill="#030303"/>
+<path transform="translate(671,617)" d="m0 0 5 1 6 5 7 4-1 2-6-1-9-3 2 10-3 1-2-1v-11l1-4z" fill="#010101"/>
+<path transform="translate(634,599)" d="m0 0 14 3 4 3v2l-2 1h-7l-5-3-13-1 1-4z" fill="#DBDBDB"/>
+<path transform="translate(769,367)" d="m0 0 5 2v4h-2v2h13l3 2-1 3-3-1v-2h-2l-1 3-5-1 2 5 4 1v2l-10-1-1 3v-4l3-2-3-5-2-5-1-5z" fill="#060606"/>
+<path transform="translate(535,1115)" d="m0 0 5 5 5 11v5l-5 1-3-3-2-13z" fill="#E6E6E6"/>
+<path transform="translate(671,374)" d="m0 0h7l3 2-1 3-12 1h-15v-4l14-1z" fill="#040404"/>
+<path transform="translate(169,905)" d="m0 0 4 1-1 5 3 6v5h-4v-5l-3 3-2 6-8 1 2-4h3l2-5 3-7z" fill="#0E0E0E"/>
+<path transform="translate(792,889)" d="m0 0h8l2 1 8-1h32l4 2-9 1h-31l-3 1-2-1-1 3-1-3-11-1z" fill="#9E9E9E"/>
+<path transform="translate(511,454)" d="m0 0h4v2h2v2l4 2 2 3h-4l-3-1 1 9h-4l-1-2v-6h-6v-2h3v-5z" fill="#060606"/>
+<path transform="translate(908,1170)" d="m0 0 5 2 8 1 2 3-5 5h-2l1 3h-7l3-2-5-7z" fill="#E4E4E4"/>
+<path transform="translate(111,896)" d="m0 0 8 4h3v2l3 1-6 1-2 5h-2l-1-3-3-1v3l-2-1v-3l-3-1 1-5z" fill="#909090"/>
+<path transform="translate(147,727)" d="m0 0h6l-1 3-9 4-7 6-3 1-1 3h-2v-3l-2-1v-2l6-3 5-5 3-2z" fill="#DCDCDC"/>
+<path transform="translate(131,911)" d="m0 0h5l1 1-1 7-3 4h-2l-1 4 8 1-3 2-5 1-2-6zm5 13 2 1-3 2z" fill="#E2E2E2"/>
+<path transform="translate(147,1071)" d="m0 0 1 2 12 2 3 2v2l-18 1-3 3h-3l2-4 3-3z" fill="#010101"/>
+<path transform="translate(259,689)" d="m0 0h8l-4 4-5 3h-3v5l8-1v4l-4 1v4l-4-1-3-2 1-9 5-5 3-1z" fill="#ddd"/>
+<path transform="translate(19,734)" d="m0 0 6 1 1 2v5h-9-2l-7-1 1-6h5l3 2z" fill="#AEAEAE"/>
+<path transform="translate(1081,772)" d="m0 0h21l1 3-25 3h-2v-3z" fill="#E0E0E0"/>
+<path transform="translate(703,372)" d="m0 0 4 1-3 5-15 1-5-3 1-2z" fill="#010101"/>
+<path transform="translate(648,563)" d="m0 0 8 1 12 4-1 4-10-1-9-5z" fill="#010101"/>
+<path transform="translate(14,969)" d="m0 0h7l2 3-6 5-8 2-1-6 3-3z" fill="#010101"/>
+<path transform="translate(208,704)" d="m0 0 9 2 3 1-1 4h-19v-4l7-1z" fill="#D0D0D0"/>
+<path transform="translate(174,745)" d="m0 0 1 2-1 4 3 2v5h-3l-4-5-8-1h-3l2-4z" fill="#010101"/>
+<path transform="translate(178,707)" d="m0 0 10 4-1 4-8 3h-5l2-9z" fill="#E8E8E8"/>
+<path transform="translate(847,890)" d="m0 0h33v1l-24 1-2-1-1 5-5 1-4 2h-5v-2l6-4h2z" fill="#9E9E9E"/>
+<path transform="translate(516,462)" d="m0 0 10 2 1 6-5 2h-9l3-2-1-6z" fill="#919191"/>
+<path transform="translate(687,300)" d="m0 0h14l7 2-4 2-2-1-2 8-6 2-1-2h3l-1-8-4-1-2 4z" fill="#010101"/>
+<path transform="translate(577,1028)" d="m0 0 4 2 8 12v1h-7l-4-7-2-4z" fill="#EAEAEA"/>
+<path transform="translate(491,516)" d="m0 0 4 1v2h-2v8l5 2v2l-10-1-2-2 1-7 2-4z" fill="#010101"/>
+<path transform="translate(761,381)" d="m0 0 10 4-1 4-9-2-4 2-5-4v-3h7z" fill="#010101"/>
+<path transform="translate(651,308)" d="m0 0v3l-4 8-9 2-7 5-4 4h-2v-3l6-4 6-5 10-6z" fill="#010101"/>
+<path transform="translate(701,534)" d="m0 0 8 1 5 2-2 7h-4l-2-3-6-2-1-4z" fill="#010101"/>
+<path transform="translate(593,284)" d="m0 0 3 1-1 5h-6l-2 2-6 2-3 4h-3l1-4 5-5 4-2 7-2z" fill="#010101"/>
+<path transform="translate(777,493)" d="m0 0h3l1 6-1 13-3 1-2-4-2-1 3-10z" fill="#010101"/>
+<path transform="translate(541,258)" d="m0 0 5 1v4l-7 8-3 1-1-5 4-6z" fill="#010101"/>
+<path transform="translate(719,369)" d="m0 0h8v3l-6 3h-10l-3-4 2-1z" fill="#010101"/>
+<path transform="translate(956,1177)" d="m0 0 6 2 4 6-9 2-3-1h-4l1-3 4-3z" fill="#D7D7D7"/>
+<path transform="translate(562,268)" d="m0 0 5 1 1 2v6l-2 2-4-1-4-2 1-5z" fill="#E8E8E8"/>
+<path transform="translate(37,1113)" d="m0 0 10 2-3 3-7 2h-7l-1-5 1-1z" fill="#101010"/>
+<path transform="translate(117,736)" d="m0 0h7v4l-7 4-3 3-2-2 1-7z" fill="#E4E4E4"/>
+<path transform="translate(606,534)" d="m0 0 5 2 10 7 7 5v2l-9-3-8-6-5-6z" fill="#010101"/>
+<path transform="translate(136,1093)" d="m0 0 3 1 2 4-4 2-1 3-2 1-9-1 1-2 6-3z" fill="#010101"/>
+<path transform="translate(138,711)" d="m0 0h13l1 5-9 1-6-2z" fill="#010101"/>
+<path transform="translate(63,511)" d="m0 0 8 2 2 2v3h-16l4-6z" fill="#010101"/>
+<path transform="translate(1186,1119)" d="m0 0h4l-2 5-3 3-5 3-4 4-7 1 5-5 5-3h2l2-5z" fill="#010101"/>
+<path transform="translate(637,996)" d="m0 0 4 1 3 8-2 4-5-1-1-7z" fill="#E4E4E4"/>
+<path transform="translate(906,864)" d="m0 0h6l3 7 5 2-1 2h-5l-2-4-7-2z" fill="#D6D6D6"/>
+<path transform="translate(569,241)" d="m0 0 5 2 6 4 12 6 5 2v2l-6-1-17-9-5-2v-3z" fill="#aaa"/>
+<path transform="translate(382,152)" d="m0 0 8 2 9 4 1 4h-3l-16-8z" fill="#D2D2D2"/>
+<path transform="translate(929,1135)" d="m0 0 2 1-6 8-7 3h-3l1-4 8-6h3z" fill="#D7D7D7"/>
+<path transform="translate(1153,785)" d="m0 0h9l4 3-1 4h-6l-5-2v-2l-2-1z" fill="#010101"/>
+<path transform="translate(181,1097)" d="m0 0h8l1 3 8 1v1h-21v-4z" fill="#C4C4C4"/>
+<path transform="translate(673,577)" d="m0 0h8l8 2 1 2h-11l-9 2-1-4z" fill="#010101"/>
+<path transform="translate(1191,816)" d="m0 0 6 1-1 6 4 2v2l-4-1-6-5-5 1-1-3 2-2z" fill="#111"/>
+<path transform="translate(21,780)" d="m0 0 4 1v2h2l2 3 3 1 1-2v3l-10 1-4-1 1-7z" fill="#E2E2E2"/>
+<path transform="translate(258,755)" d="m0 0h2l1 2 9 1 2 5h-7l-8-2-1-4z" fill="#010101"/>
+<path transform="translate(538,584)" d="m0 0 9 2 3 3h-9l-3 2h-8l-3-3 10-1z" fill="#010101"/>
+<path transform="translate(880,304)" d="m0 0 20 1 3 3-14 1-8-2z" fill="#010101"/>
+<path transform="translate(261,1024)" d="m0 0 4 1 3 5v4l-6 1-1-2 3-1v-2l-5-1v-2l-3 1-2-3z" fill="#BCBCBC"/>
+<path transform="translate(96,961)" d="m0 0h1l2 7v11l-6-1v-2h3l-2-7v-5z" fill="#CECECE"/>
+<path transform="translate(217,832)" d="m0 0h2l1 15-4 1-1-1v-10z" fill="#D9D9D9"/>
+<path transform="translate(59,689)" d="m0 0 5 1-1 8v4l-5 1-1-2h2l-2-8-2-3z" fill="#010101"/>
+<path transform="translate(178,630)" d="m0 0 1 4-2 9-2 6-3 14-5 5 3-9 5-19 2-7z" fill="#151515"/>
+<path transform="translate(783,259)" d="m0 0h2l-2 4-9 6-5 1 3-5 8-5z" fill="#010101"/>
+<path transform="translate(536,252)" d="m0 0 1 2 6-1 8 4-4 5-3-3-3-1-1 2-2-1-2-4z" fill="#B9B9B9"/>
+<path transform="translate(862,1171)" d="m0 0 5 1 1 2-1 2-13 3 2-5 2-2z" fill="#010101"/>
+<path transform="translate(738,889)" d="m0 0h20l2 3-9 1-12-2z" fill="#8F8F8F"/>
+<path transform="translate(989,852)" d="m0 0 5 2 2 2-1 7-5-1-1-1z" fill="#D6D6D6"/>
+<path transform="translate(734,370)" d="m0 0 9 1 2 2-1 3-1-1-10 1-4 1v-3z" fill="#010101"/>
+<path transform="translate(876,834)" d="m0 0 3 1-9 6-1 5-1 2-7-5v-3h6z" fill="#010101"/>
+<path transform="translate(1081,813)" d="m0 0h13l-1 6-1 2 3 1h-4l-3-5-8-2z" fill="#010101"/>
+<path transform="translate(896,626)" d="m0 0h7v3l-4 1 7 1v2l-9 1-4-1 3-1v-2l-3-2z" fill="#555"/>
+<path transform="translate(603,277)" d="m0 0 4 1 4 3-2 4-3 3-2-1-2-9z" fill="#D8D8D8"/>
+<path transform="translate(720,658)" d="m0 0 8 1v1l-8 2-3 7-1 5h-4v-3h2l1-8 4-2z" fill="#7E7E7E"/>
+<path transform="translate(641,608)" d="m0 0 7 4 9 1v-4l4 1h-3l5 6h-13l-9-6z" fill="#C2C2C2"/>
+<path transform="translate(771,889)" d="m0 0h12l-1 4-5 1h-5z" fill="#010101"/>
+<path transform="translate(159,735)" d="m0 0h1l-1 13-3-1h-3-2l2-5 4-6z" fill="#CFCFCF"/>
+<path transform="translate(313,253)" d="m0 0 4 1 2 9-2 3h-3z" fill="#010101"/>
+<path transform="translate(1034,765)" d="m0 0h3l1 7-9-1-1-3h-3l1-2z" fill="#7D7D7D"/>
+<path transform="translate(1039,596)" d="m0 0h20v3h-10l-8 1-2-1z" fill="#B9B9B9"/>
+<path transform="translate(645,596)" d="m0 0h13l3 3-5 1h-12l-3-2z" fill="#747474"/>
+<path transform="translate(624,349)" d="m0 0 5 1 7 2-1 3-6-2v2l-8-1 1-4z" fill="#010101"/>
+<path transform="translate(136,1021)" d="m0 0 1 3-5 12-3 1-1 2-2-2z" fill="#010101"/>
+<path transform="translate(238,153)" d="m0 0 5 2 3 3v3h-8l-1-7z" fill="#010101"/>
+<path transform="translate(168,914)" d="m0 0 2 3-2 3-2 6-8 1 2-4h3l2-5z" fill="#010101"/>
+<path transform="translate(804,894)" d="m0 0 5 1 5 4v2h-9l-2-2z" fill="#CECECE"/>
+<path transform="translate(888,868)" d="m0 0h14l-1 3-15 1v-3z" fill="#CDCDCD"/>
+<path transform="translate(278,696)" d="m0 0 3 1-2 5-3 2-1 5-4-4 2-5 4-2z" fill="#D8D8D8"/>
+<path transform="translate(691,302)" d="m0 0 5 1 1 5-1 3-4 1-2-4z" fill="#D6D6D6"/>
+<path transform="translate(129,899)" d="m0 0h2v2l3-1v2h2l1-3 1 3-1 4-9-1v-2l-2-1z" fill="#BDBDBD"/>
+<path transform="translate(515,225)" d="m0 0h2l1 5-3 6-4-1 1-6z" fill="#D8D8D8"/>
+<path transform="translate(377,177)" d="m0 0 6 1 3 2v5l-4 1-5-7z" fill="#A5A5A5"/>
+<path transform="translate(978,1165)" d="m0 0h8l2 1v4 1h-7l-3-4z" fill="#C4C4C4"/>
+<path transform="translate(213,663)" d="m0 0h11l1 2-2 3-7-1-4-1-3 2 1-4z" fill="#010101"/>
+<path transform="translate(249,658)" d="m0 0 3 1 1 4-10 5v-5z" fill="#010101"/>
+<path transform="translate(193,1065)" d="m0 0 4 3v2l5 1 1 4-6-1-5-5z" fill="#D1D1D1"/>
+<path transform="translate(233,973)" d="m0 0 2 1-1 4-7 6h-3l1-5 5-1 2-4z" fill="#DBDBDB"/>
+<path transform="translate(17,798)" d="m0 0 1 2h7v1l-14 3-11 2v-3l12-2h5z" fill="#BABABA"/>
+<path transform="translate(1172,796)" d="m0 0 4 1 1 5-3 3v-2h-5v-4z" fill="#C7C7C7"/>
+<path transform="translate(919,624)" d="m0 0 3 1 2 3 1-1h5l1 3-11 2z" fill="#010101"/>
+<path transform="translate(766,276)" d="m0 0h6l-3 5-4 4-4-1z" fill="#010101"/>
+<path transform="translate(603,1037)" d="m0 0 2 1-1 3-10 3h-10l4-3 8-1z" fill="#bbb"/>
+<path transform="translate(814,895)" d="m0 0 4 1 1 2 4-3h2l-1 6-6 1-4-4z" fill="#BDBDBD"/>
+<path transform="translate(1038,775)" d="m0 0 11 2v2h-2v3l-7 1v-3l3-3-7 1z" fill="#525252"/>
+<path transform="translate(199,152)" d="m0 0 7 1-1 4-1 3h-4l-2-7z" fill="#010101"/>
+<path transform="translate(88,1029)" d="m0 0h5l2 2 4 1v2l-10 1-2-5z" fill="#010101"/>
+<path transform="translate(848,892)" d="m0 0h5v2l-9 5h-5v-2z" fill="#D1D1D1"/>
+<path transform="translate(993,807)" d="m0 0 8 1 2 4h-6l-5 1-1-5z" fill="#040404"/>
+<path transform="translate(720,382)" d="m0 0 6 1 2 1v2h-9l-1 1h-6l1-3z" fill="#010101"/>
+<path transform="translate(622,306)" d="m0 0 3 2-2 4-9 6-2-1 5-5 3-5z" fill="#010101"/>
+<path transform="translate(241,700)" d="m0 0h2l1 4 8 3-1 4-5-1-1-3-3-1z" fill="#C7C7C7"/>
+<path transform="translate(259,689)" d="m0 0h8l-4 4-5 3h-3v5l2 1h-4l1-7 5-3 2-1z" fill="#9E9E9E"/>
+<path transform="translate(69,694)" d="m0 0 9 1 2 3-4 1-3-2-1 3-4-2z" fill="#010101"/>
+<path transform="translate(169,677)" d="m0 0 3 1-6 9-3 3-3-1 2-3h2l1-5z" fill="#010101"/>
+<path transform="translate(432,666)" d="m0 0 3 3 2-1v3l-5 1-1 3-3-1v-7z" fill="#C0C0C0"/>
+<path transform="translate(23,267)" d="m0 0h4v9l-1 2h-3l-1-4z" fill="#010101"/>
+<path transform="translate(481,217)" d="m0 0h2l-2 6-5 5-5 3 2-4z" fill="#D0D0D0"/>
+<path transform="translate(454,1060)" d="m0 0 3 1-1 21-2-2-1-12z" fill="#bbb"/>
+<path transform="translate(889,627)" d="m0 0h4v2l4 1-1 3-5 2-3-4z" fill="#E0E0E0"/>
+<path transform="translate(1010,600)" d="m0 0 1 2 4 1-9 2-6 1-4-2 3-2 6-1z" fill="#C3C3C3"/>
+<path transform="translate(658,289)" d="m0 0 4 1 2 4-1 1-10 1z" fill="#E5E5E5"/>
+<path transform="translate(1048,772)" d="m0 0h6l1 4-3 3-5-2z" fill="#CECECE"/>
+<path transform="translate(671,623)" d="m0 0 4 2h-2l2 10-3 1-2-1v-11z" fill="#7C7C7C"/>
+<path transform="translate(1,285)" d="m0 0 8 1-1 5h-7l-1-5z" fill="#010101"/>
+<path transform="translate(128,958)" d="m0 0 2 2-2 3v11h-3v-13z" fill="#D1D1D1"/>
+<path transform="translate(85,956)" d="m0 0h2l3 10 3 9h-2l-3-5-3-9z" fill="#C1C1C1"/>
+<path transform="translate(717,645)" d="m0 0h1v5l5-2 1 2-3 5-4 1-1-7z" fill="#A1A1A1"/>
+<path transform="translate(1136,595)" d="m0 0h3v2l-6 4-2 2h-3v-5l3-2z" fill="#010101"/>
+<path transform="translate(94,584)" d="m0 0 8 1 5 1v3h-7l-6-2z" fill="#010101"/>
+<path transform="translate(516,462)" d="m0 0 4 1 1 4 3-1-1 3-5 1-3-3z" fill="#EBEBEB"/>
+<path transform="translate(501,234)" d="m0 0 3 1-1 7-3 3h-3l1-4z" fill="#ddd"/>
+<path transform="translate(287,1083)" d="m0 0 4 2 1 4-6 1-2-1 1-5z" fill="#DCDCDC"/>
+<path transform="translate(171,976)" d="m0 0 2 4 2 6v5h-4z" fill="#010101"/>
+<path transform="translate(1007,808)" d="m0 0h4v7h-5l-3-3z" fill="#010101"/>
+<path transform="translate(33,697)" d="m0 0h2v7l2 3-5 3h-3l1-4 2-1z" fill="#010101"/>
+<path transform="translate(135,684)" d="m0 0h5l-1 7h-5l-1-4z" fill="#595959"/>
+<path transform="translate(733,298)" d="m0 0 3 1v3h-15v-3h10z" fill="#010101"/>
+<path transform="translate(485,1127)" d="m0 0 3 1 3 6-1 8-2-3-3-8z" fill="#C7C7C7"/>
+<path transform="translate(421,1052)" d="m0 0h7l-2 4-7 2-1-4z" fill="#010101"/>
+<path transform="translate(157,859)" d="m0 0 3 1 1 5-2 2-5-1 1-5z" fill="#DEDEDE"/>
+<path transform="translate(106,763)" d="m0 0h6l-1 5h-6l-3-3z" fill="#010101"/>
+<path transform="translate(554,557)" d="m0 0 5 1 7 3 4 1v2l-9-1-3-1v-2l-4-1z" fill="#797979"/>
+<path transform="translate(624,302)" d="m0 0h5v2l4 2 1 3-7-1v-4l-4 2z" fill="#1D1D1D"/>
+<path transform="translate(714,333)" d="m0 0 7 1 6 3-2 4-1-3-7-1-3-2z" fill="#010101"/>
+<path transform="translate(527,236)" d="m0 0 5 1-1 5-5 1-1-4z" fill="#ddd"/>
+<path transform="translate(551,219)" d="m0 0 7 2 7 5v2l-5-1-8-6z" fill="#C3C3C3"/>
+<path transform="translate(280,1031)" d="m0 0 3 1-2 3-5 3-4-1 1-4h5z" fill="#C7C7C7"/>
+<path transform="translate(474,881)" d="m0 0 5 1-4 2-1 4v2h-3v-2h-3l1-4z" fill="#808080"/>
+<path transform="translate(129,682)" d="m0 0 3 1-3 9-7-3 1-4 2-1 1 5 2-2z" fill="#383838"/>
+<path transform="translate(369,673)" d="m0 0h6l-1 4-7 3-2 2-2-2 5-4z" fill="#666"/>
+<path transform="translate(747,336)" d="m0 0 1 4 6-1 1 4h-7l-4-2 1-3h2z" fill="#545454"/>
+<path transform="translate(717,312)" d="m0 0 3 1-4 4-7 4-3-1v-3l8-2z" fill="#010101"/>
+<path transform="translate(774,375)" d="m0 0h11l3 2-1 3-3-1v-2h-2l-1 3-5-2z" fill="#4B4B4B"/>
+<path transform="translate(20,287)" d="m0 0h4v4h-10l-1-3z" fill="#010101"/>
+<path transform="translate(537,241)" d="m0 0 7 2 1 4-3 1-6-4z" fill="#D8D8D8"/>
+<path transform="translate(929,1172)" d="m0 0 3 1 1 4-2 3-4-1v-5z" fill="#E5E5E5"/>
+<path transform="translate(879,1167)" d="m0 0h7l3 1-1 3h-7l-3-3z" fill="#ddd"/>
+<path transform="translate(72,952)" d="m0 0h3l-1 3-5 3h-4l1-5z" fill="#A6A6A6"/>
+<path transform="translate(528,865)" d="m0 0h3v6l3-1 2 2h-9l-1-4z" fill="#5F5F5F"/>
+<path transform="translate(138,852)" d="m0 0h6l1 5h-6l-2-4z" fill="#ddd"/>
+<path transform="translate(569,841)" d="m0 0 2 2v8l-4-1-1-5z" fill="#C9C9C9"/>
+<path transform="translate(1181,795)" d="m0 0 5 1-2 4-2 1 4 3h-5l-2-4z" fill="#C1C1C1"/>
+<path transform="translate(147,739)" d="m0 0h2v10l-2 1h-8v-1h6v-6z" fill="#A8A8A8"/>
+<path transform="translate(184,667)" d="m0 0h3v4h-10l-4-2 1-1z" fill="#010101"/>
+<path transform="translate(900,628)" d="m0 0 10 1-2 5h-5l3-1v-2h-8z" fill="#ccc"/>
+<path transform="translate(574,275)" d="m0 0 3 1-1 3-8 6-1-4 5-4h2z" fill="#B6B6B6"/>
+<path transform="translate(962,1104)" d="m0 0v3l-12 9h-3v-2l9-5z" fill="#999"/>
+<path transform="translate(88,985)" d="m0 0 3 1 12 1v1l-22 1 1-3z" fill="#BABABA"/>
+<path transform="translate(879,840)" d="m0 0 5 1v6l-5-2-2-1v-3z" fill="#8D8D8D"/>
+<path transform="translate(270,736)" d="m0 0h3l-1 3h-15v-2z" fill="#010101"/>
+<path transform="translate(129,679)" d="m0 0 2 3h-2l-1 7h-3l-1-3 3-6z" fill="#CBCBCB"/>
+<path transform="translate(707,308)" d="m0 0h4l-1 4-4 4h-2l1-6z" fill="#010101"/>
+<path transform="translate(1108,778)" d="m0 0h2v6l-5 3-1-3 3-5z" fill="#D2D2D2"/>
+<path transform="translate(160,755)" d="m0 0 3 1 1 6-1 1h-5z" fill="#010101"/>
+<path transform="translate(1024,753)" d="m0 0h4v2h-2l-1 7-3 6-2-1 3-8z" fill="#353535"/>
+<path transform="translate(423,397)" d="m0 0h4l-1 4-5 2-3-1 1-2z" fill="#CFCFCF"/>
+<path transform="translate(754,359)" d="m0 0h5l4 1-1 3-6 1-3-1z" fill="#010101"/>
+<path transform="translate(708,338)" d="m0 0 5 1 4 3-4 2-4-1z" fill="#010101"/>
+<path transform="translate(604,337)" d="m0 0h7v2l-8 3h-3l1-3z" fill="#010101"/>
+<path transform="translate(956,1177)" d="m0 0 4 2-2 1-2 5-6 1 1-3 4-3z" fill="#8B8B8B"/>
+<path transform="translate(222,1065)" d="m0 0h4l2 5v5l-3-1z" fill="#C8C8C8"/>
+<path transform="translate(69,1046)" d="m0 0 4 1v4h-7v-3z" fill="#D1D1D1"/>
+<path transform="translate(66,1013)" d="m0 0h2l-1 5-5 3-3-3z" fill="#D7D7D7"/>
+<path transform="translate(169,917)" d="m0 0h2v5l4 1h-5v2l-4 1 2-8z" fill="#ABABAB"/>
+<path transform="translate(902,797)" d="m0 0h6l1 3-6 3h-2v-5z" fill="#010101"/>
+<path transform="translate(102,755)" d="m0 0h5l-1 4-5 2-1-5z" fill="#010101"/>
+<path transform="translate(1016,597)" d="m0 0h6v3l-4 1-2-1v2h-5v-2z" fill="#ddd"/>
+<path transform="translate(485,545)" d="m0 0 2 1v9l-4-1v-6z" fill="#010101"/>
+<path transform="translate(713,421)" d="m0 0h8l4 2v1h-12z" fill="#010101"/>
+<path transform="translate(136,924)" d="m0 0 2 1-3 2zm-7 1 1 2 8 1-3 2-5 1-1-1z" fill="#C9C9C9"/>
+<path transform="translate(1036,817)" d="m0 0 4 2-1 4h-5v-4z" fill="#010101"/>
+<path transform="translate(981,777)" d="m0 0h5l1 2-1 3h-2l-1 4-1-4z" fill="#474747"/>
+<path transform="translate(306,657)" d="m0 0 4 1 2 1-1 4-6-1z" fill="#010101"/>
+<path transform="translate(1069,595)" d="m0 0 5 1v3l-6 1-3-1v-2z" fill="#D2D2D2"/>
+<path transform="translate(906,594)" d="m0 0h7l2 1v3l-10 1 2-2z" fill="#BCBCBC"/>
+<path transform="translate(939,352)" d="m0 0 4 1v2h-2l-1 7-3 1 1-10z" fill="#2E2E2E"/>
+<path transform="translate(706,315)" d="m0 0 6 1v1h-6l2 4-1 3-5-5 1-3z" fill="#B1B1B1"/>
+<path transform="translate(741,149)" d="m0 0h5l-1 4-1 1h-6l2-4z" fill="#010101"/>
+<path transform="translate(231,2)" d="m0 0 5 2 3 3v2l-5-1-3-3z" fill="#C9C9C9"/>
+<path transform="translate(1190,870)" d="m0 0 7 1 1 3-4 1-5-3z" fill="#C7C7C7"/>
+<path transform="translate(1156,796)" d="m0 0 3 1v2l-7 5h-2l2-4z" fill="#010101"/>
+<path transform="translate(391,155)" d="m0 0 7 2 2 2-1 4-7-3 2-2z" fill="#C1C1C1"/>
+<path transform="translate(1069,812)" d="m0 0 5 1v4h-7v-4z" fill="#010101"/>
+<path transform="translate(1029,808)" d="m0 0h9l1 3h-10z" fill="#010101"/>
+<path transform="translate(566,593)" d="m0 0h8l4 1v2l-7 1-5-2z" fill="#828282"/>
+<path transform="translate(1028,376)" d="m0 0 4 2 3 4v3h-4z" fill="#787878"/>
+<path transform="translate(718,337)" d="m0 0 6 1 1 2 2-2-1 5-2 3-1-6h-4z" fill="#989898"/>
+<path transform="translate(1144,1140)" d="m0 0 4 2 5 6 2 2-4-1-5-5z" fill="#767676"/>
+<path transform="translate(249,737)" d="m0 0 2 2-4 4-9 1v-2l9-3z" fill="#010101"/>
+<path transform="translate(560,596)" d="m0 0 9 1 2 2h-12z" fill="#010101"/>
+<path transform="translate(775,381)" d="m0 0 3 3 4 1v2l-10-1-1 3v-4l3-2z" fill="#555"/>
+<path transform="translate(610,318)" d="m0 0 2 1-10 6-5 1 3-3z" fill="#010101"/>
+<path transform="translate(261,1009)" d="m0 0h6v3l-3 1h-7v-2z" fill="#010101"/>
+<path transform="translate(805,891)" d="m0 0h7l1 3h-2v2l-6-2z" fill="#1E1E1E"/>
+<path transform="translate(1078,885)" d="m0 0 3 1-1 4-7 1 3-5z" fill="#CFCFCF"/>
+<path transform="translate(371,677)" d="m0 0m-3 1 7 1-4 4h-5l1-4z" fill="#C8C8C8"/>
+<path transform="translate(649,329)" d="m0 0 5 1v3h-8l1-3z" fill="#010101"/>
+<path transform="translate(82,937)" d="m0 0 2 2v6h-3l-1-7z" fill="#DCDCDC"/>
+<path transform="translate(738,889)" d="m0 0h12l-1 3-10-1z" fill="#919191"/>
+<path transform="translate(101,822)" d="m0 0h2v7l-5 2z" fill="#C2C2C2"/>
+<path transform="translate(1017,817)" d="m0 0 2 1-1 4-3 3h-2l1-4z" fill="#010101"/>
+<path transform="translate(200,707)" d="m0 0 7 1v2l-7 1z" fill="#E4E4E4"/>
+<path transform="translate(657,609)" d="m0 0 4 1h-3l5 6h-10l4-3z" fill="#A9A9A9"/>
+<path transform="translate(529,376)" d="m0 0 5 1v7l-2-3-4-2z" fill="#010101"/>
 </svg>
