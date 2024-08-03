@@ -21,7 +21,7 @@ repository               : "https://github.com/spen2005/spen2005.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "big-photo.jpg"
+  avatar           : "profile.png"
   name             : "Jhen Hsieh"
   pronouns         : # example: "she/her"  
   bio              : "Computer Science Student at National Taiwan University"
