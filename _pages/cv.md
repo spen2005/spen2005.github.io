@@ -18,8 +18,10 @@ Work experience
 ======
 * Summer 2025: Research Intern
   * Academia Sinica
-  * Duties includes: 
   * Supervisor: 
+* Winter 2024~: Researcher
+  * EAI lab
+  * Supervisor: Tsung-Wei Ke
   
 Skills
 ======
