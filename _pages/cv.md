@@ -16,6 +16,12 @@ Education
 
 Work experience
 ======
+* 2033: Research Scientist and Co-Founder
+  * EAI robotics
+* Summer 2030: Research Intern
+  * Tesla
+* Summer 2029: Research Intern
+  * nvidia
 * Summer 2025: Research Intern
   * Academia Sinica
   * Supervisor: 
