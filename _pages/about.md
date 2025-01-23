@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
 Hi, I’m Jhen Hsieh, a passionate researcher and aspiring undergraduate in computer science, with a focus on artificial intelligence and its applications in solving real-world problems. My journey in AI has been fueled by an insatiable curiosity and a drive to innovate in areas like natural language processing, robotics, and machine learning models.
 
 Currently, I’m delving into projects ranging from developing intelligent systems for math solving to designing generalist robot. My work often involves training robots for specific tasks and crafting custom solutions to push the boundaries of what’s possible.
