@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 ## About Me
 Hi, I’m Jhen Hsieh, a passionate researcher and aspiring undergraduate in computer science, with a focus on artificial intelligence and its applications in solving real-world problems. My journey in AI has been fueled by an insatiable curiosity and a drive to innovate in areas like natural language processing, robotics, and machine learning models.
 
