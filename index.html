@@ -6,13 +6,13 @@
   <title>Jhen Hsieh</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Font Awesome (Icons) -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
   <style>
     body {
@@ -21,41 +21,43 @@
       color: #2c3e50;
       font-size: 16px;
     }
+
     #header {
       background-color: #e8eef4;
       padding: 60px 0;
     }
+
     #portrait {
       border-radius: 12px;
       box-shadow: 0 0 12px rgba(0,0,0,0.1);
       width: 100%;
+      margin-bottom: 15px;
     }
-    #header-text-name {
-      font-size: 2.2rem;
-      font-weight: 600;
-    }
-    #header-text-title,
-    #header-text-affiliation,
-    #header-text-email {
-      font-size: 1rem;
-      margin-top: 0.3rem;
-    }
-    #header-text-email {
-      font-style: italic;
-      color: #6c757d;
-    }
-    a {
+
+    .name-glow {
+      font-size: 2.5rem;
+      font-weight: 700;
       color: #007acc;
+      text-shadow: 0 0 5px #007acc88, 0 0 10px #007acc33;
+      animation: flicker 3s infinite ease-in-out;
     }
-    a:hover {
-      text-decoration: underline;
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.75; }
     }
+
+    .text-muted {
+      color: #6c757d !important;
+    }
+
     .section-title {
       font-size: 1.5rem;
       font-weight: 500;
       margin-top: 3rem;
       margin-bottom: 1.5rem;
     }
+
     .section-subtitle {
       font-size: 1.2rem;
       font-weight: 600;
@@ -65,10 +67,12 @@
       border-left: 4px solid #007acc;
       padding-left: 10px;
     }
+
     p {
       line-height: 1.7;
       margin-bottom: 1.2em;
     }
+
     .paper-card {
       background: white;
       padding: 20px;
@@ -76,15 +80,18 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       margin-bottom: 20px;
     }
+
     .paper-title {
       font-weight: 600;
       font-size: 1rem;
     }
+
     .paper-authors {
       font-style: italic;
       font-size: 0.9rem;
       color: #555;
     }
+
     #footer {
       background-color: #f0f3f7;
       padding: 40px 0;
@@ -93,28 +100,22 @@
       font-size: 0.9rem;
     }
 
-    /* Social Icons */
-    .social-icons {
-      margin-top: 20px;
-    }
-    .social-icons a {
-      display: inline-block;
+    .social-link {
       color: #2c3e50;
-      margin-right: 15px;
-      font-size: 1.5rem;
-      transition: transform 0.2s, color 0.2s;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+      margin-right: 16px;
+      margin-top: 8px;
     }
-    .social-icons a:hover {
-      transform: translateY(-3px);
+
+    .social-link i {
+      margin-right: 6px;
     }
-    .social-icons a.youtube:hover {
-      color: #ff0000;
-    }
-    .social-icons a.linkedin:hover {
-      color: #0077b5;
-    }
-    .social-icons a.instagram:hover {
-      color: #e1306c;
+
+    .social-link:hover {
+      color: #007acc;
+      transform: translateY(-1px);
     }
   </style>
 </head>
@@ -124,39 +125,37 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-4 col-md-3 mb-3 mb-sm-0">
-          <img src="img/profile.jpg" id="portrait" class="mb-3" />
-          <img src="img/profile2.JPG" id="portrait" />
+          <img src="img/profile.jpg" id="portrait">
+          <img src="img/profile2.JPG" id="portrait">
         </div>
         <div class="col-sm-8">
-          <div id="header-text-name">Jhen Hsieh</div>
-          <div id="header-text-title">Undergraduate</div>
-          <div id="header-text-affiliation">
-            NTU Department of <a href="https://www.csie.ntu.edu.tw">Computer Science</a>
-          </div>
-          <div id="header-text-email">b12902015@csie.ntu.edu.tw</div>
-          <!-- Social Icons -->
-          <div class="social-icons">
-            <a class="youtube" href="https://www.youtube.com/channel/UC8NnhW94a85VztLpSLL0mTw" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
-            <a class="linkedin" href="https://www.linkedin.com/in/jhen-hsieh-7764b2228/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a class="instagram" href="https://www.instagram.com/diedrich_0408/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-          <div class="mt-3">
-            <a href="https://github.com/spen2005">[GitHub]</a> &nbsp;
-            <a href="pdfs/cv.pdf">[Download CV]</a>
+          <div id="header-text-name" class="name-glow">Jhen Hsieh</div>
+          <div class="text-muted mt-1 font-weight-light">Undergraduate</div>
+          <div class="text-muted">NTU Department of <a href="https://www.csie.ntu.edu.tw">Computer Science</a></div>
+          <div class="text-muted font-italic">b12902015@csie.ntu.edu.tw</div>
+
+          <div class="mt-3 d-flex flex-wrap align-items-center">
+            <a href="https://github.com/spen2005" target="_blank" class="social-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.youtube.com/channel/UC8NnhW94a85VztLpSLL0mTw" target="_blank" class="social-link">
+              <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://www.linkedin.com/in/jhen-hsieh-7764b2228/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://www.instagram.com/diedrich_0408/" target="_blank" class="social-link">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="pdfs/cv.pdf" class="social-link">
+              <i class="fas fa-file-alt"></i> CV
+            </a>
           </div>
 
           <h5 class="section-subtitle"><i class="fas fa-user-graduate mr-2"></i>About Me</h5>
-
-          <p>
-            <strong>Academics:</strong> I am an undergraduate student at National Taiwan University, currently conducting robotics research in the Embodied AI Lab under the guidance of 
-            <a href="https://twke18.github.io/">Tsung-Wei Ke</a>.
-          </p>
-          <p>
-            <strong>Interests:</strong> Outside of academics, I enjoy both watching and playing sports. I follow baseball, basketball, and Formula 1. In the CPBL, I support the Wei Chuan Dragons. I was a Dallas Mavericks fan for about five years, up until Luka Dončić was traded. In F1, my favorite driver is Max Verstappen.
-          </p>
-          <p>
-            <strong>Fun fact:</strong> When I was ten, I played baseball with current NPB pitcher 孫易磊 and Wei Chuan Dragons shortstop 劉俊緯. While I wasn't as talented as they are—my career fastest pitch is around 77 mph—I still play baseball for fun. Recently, I’ve picked up golf and took a class last semester. I'm generally good at sports, so feel free to invite me for a game!
-          </p>
+          <p><strong>Academics:</strong> I am an undergraduate student at National Taiwan University, currently conducting robotics research in the Embodied AI Lab under the guidance of <a href="https://twke18.github.io/">Tsung-Wei Ke</a>.</p>
+          <p><strong>Interests:</strong> Outside of academics, I enjoy both watching and playing sports. I follow baseball, basketball, and Formula 1. In the CPBL, I support the Wei Chuan Dragons. I was a Dallas Mavericks fan for about five years, up until Luka Dončić was traded. In F1, my favorite driver is Max Verstappen.</p>
+          <p><strong>Fun fact:</strong> When I was ten, I played baseball with current NPB pitcher 孫易磊 and Wei Chuan Dragons shortstop 劉俊緯. While I wasn't as talented as they are—my career fastest pitch is around 77 mph—I still play baseball for fun. Recently, I’ve picked up golf and took a class last semester. I'm generally good at sports, so feel free to invite me for a game!</p>
         </div>
       </div>
     </div>
@@ -169,12 +168,10 @@
     <div class="section-title">Publications</div>
     <div class="paper-card row no-gutters">
       <div class="col-md-4">
-        <img src="img/pubs/3d_recontruct_baseball.png" class="img-fluid" alt="publication" />
+        <img src="img/pubs/3d_recontruct_baseball.png" class="img-fluid" alt="publication">
       </div>
       <div class="col-md-8 pl-md-4 mt-3 mt-md-0">
-        <div class="paper-title">
-          Neural Network-Based Tracking and 3D Reconstruction of Baseball Pitch Trajectories from Single-View 2D Video
-        </div>
+        <div class="paper-title">Neural Network-Based Tracking and 3D Reconstruction of Baseball Pitch Trajectories from Single-View 2D Video</div>
         <div class="paper-desc">arXiv 2024</div>
         <div class="paper-authors">Jhen Hsieh</div>
         <div class="mt-2">
@@ -188,7 +185,7 @@
     © 2025 Jhen Hsieh. All rights reserved.
   </div>
 
-  <!-- Scripts -->
+  <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
