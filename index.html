@@ -35,14 +35,8 @@
     }
 
     .name-glow {
-        font-size: 2.5rem;
-        font-weight: 700;
-    }
-
-
-    @keyframes flicker {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.75; }
+      font-size: 2.5rem;
+      font-weight: 700;
     }
 
     .text-muted {
@@ -77,6 +71,14 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       margin-bottom: 20px;
+    }
+
+    /* ✅ 新增：讓圖片大小一致 */
+    .paper-card img {
+      width: 100%;
+      height: 160px;         /* 固定高度，可依需求調整 */
+      object-fit: cover;     /* 保持比例並裁切 */
+      border-radius: 8px;    /* 與卡片風格一致 */
     }
 
     .paper-title {
@@ -145,13 +147,10 @@
             <a href="https://www.instagram.com/diedrich_0408/" target="_blank" class="social-link">
               <i class="fab fa-instagram"></i> Instagram
             </a>
-            <!-- <a href="pdfs/cv.pdf" class="social-link">
-              <i class="fas fa-file-alt"></i> CV
-            </a> -->
           </div>
 
           <h5 class="section-subtitle"><i class="fas fa-user-graduate mr-2"></i>About Me</h5>
-          <p> I am a third-year undergraduate student in Computer Science at National Taiwan University, currently working with <a href="https://twke18.github.io/">Tsung-Wei Ke</a>.</p>
+          <p>I am a third-year undergraduate student in Computer Science at National Taiwan University, currently working with <a href="https://twke18.github.io/">Tsung-Wei Ke</a>.</p>
         </div>
       </div>
     </div>
@@ -164,7 +163,7 @@
     <div class="section-title">Publications</div>
     <div class="paper-card row no-gutters">
       <div class="col-md-4">
-        <img src="img/pubs/dexman.png" class="img-fluid" alt="publication">
+        <img src="img/pubs/dexman.png" alt="publication">
       </div>
       <div class="col-md-8 pl-md-4 mt-3 mt-md-0">
         <div class="paper-title">DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos</div>
@@ -177,7 +176,7 @@
     </div>
     <div class="paper-card row no-gutters">
       <div class="col-md-4">
-        <img src="img/pubs/3d_recontruct_baseball.png" class="img-fluid" alt="publication">
+        <img src="img/pubs/3d_recontruct_baseball.png" alt="publication">
       </div>
       <div class="col-md-8 pl-md-4 mt-3 mt-md-0">
         <div class="paper-title">Neural Network-Based Tracking and 3D Reconstruction of Baseball Pitch Trajectories from Single-View 2D Video</div>
