@@ -70,13 +70,21 @@
       margin-bottom: 1.2em;
     }
 
-    .paper-card {
+    /* .paper-card {
       background: white;
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       margin-bottom: 20px;
+    } */
+    .paper-card img {
+      height: 160px;     /* 固定高度 */
+      width: auto;       /* 等比例縮放寬度 */
+      display: block;    /* 避免 inline 元素造成的小間距 */
+      margin: 0 auto;    /* 置中對齊 */
+      border-radius: 8px;
     }
+
 
     /* ✅ 固定圖片高度，避免下面空白 */
     .paper-card img {
