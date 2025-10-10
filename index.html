@@ -70,6 +70,7 @@
       margin-bottom: 1.2em;
     }
 
+
     .paper-card {
       background: white;
       padding: 20px;
@@ -77,21 +78,21 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       margin-bottom: 20px;
     }
-    .paper-card img {
-      height: 160px;     /* 固定高度 */
-      width: auto;       /* 等比例縮放寬度 */
-      display: block;    /* 避免 inline 元素造成的小間距 */
-      margin: 0 auto;    /* 置中對齊 */
-      border-radius: 8px;
+
+    /* ✅ 新增，讓圖片容器固定 */
+    .paper-card .col-md-4 {
+      display: flex;
+      justify-content: center;  
+      align-items: center;
     }
 
-    /* ✅ 固定圖片高度，避免下面空白 */
-    /* .paper-card img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
+    .paper-card img {
+      height: 160px;     
+      width: auto;       
+      max-width: 100%;   
       border-radius: 8px;
-    } */
+      display: block;
+    }
 
     .paper-title {
       font-weight: 600;
@@ -103,6 +104,7 @@
       font-size: 0.9rem;
       color: #555;
     }
+
 
     #footer {
       background-color: #f0f3f7;
